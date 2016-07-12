@@ -1,0 +1,23 @@
+{
+    "name": "totara/wrap",
+    "type": "Project",
+    "config": {
+        "platform": {
+            "php": "5.3.5"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Totara\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samantha Jayasinghe",
+            "email": "isamantha@gmail.com"
+        }
+    ]
+}
